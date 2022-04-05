@@ -5,7 +5,7 @@ import Appcomponentgroup from "./component/Appcomponentgroup";
 
 function App() {
   return (
-    <div className="App" >
+    <div className="App">
       <Appcomponentgroup>
         <Yellow />
         <Yellow />

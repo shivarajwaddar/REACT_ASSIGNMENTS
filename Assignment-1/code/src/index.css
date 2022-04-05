@@ -9,7 +9,7 @@ body {
 
 .App {
   height: 100vh;
-  width: calc(100% - 30px);
+  width: calc(100% - 31px);
   padding: 30px;
 }
 
