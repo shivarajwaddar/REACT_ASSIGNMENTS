@@ -32,7 +32,38 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.info {
+  width: 21%;
+  /* height: 80vh; */
+  /* border: gray; */
+  border: 5px solid pink;
+  /* border-width: 5px; */
+  margin-left: 37%;
+  padding: 10px;
+  padding-left: 26px;
+}
+
+
+
+img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.data {
+  width: 150px;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+p {
+  margin-bottom: 5px;
 }
