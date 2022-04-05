@@ -1,6 +1,6 @@
 function Blue() {
   return (
-    <div className="Blue">
+    <div className="Blue" >
 
     </div>
   );

@@ -1,6 +1,6 @@
 function Yellow() {
     return (
-        <div className="Yellow" >
+        <div className="Yellow">
 
         </div>
     );
