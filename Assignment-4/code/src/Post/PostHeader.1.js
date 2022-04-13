@@ -3,7 +3,7 @@ export const PostHeader = ({ config }) => {
         <div className="PostHeader">
             <div className="PostTitleWrapper">
                 <div className="PostTitle">{config.name || ""} </div>
-                <div className="PostLocation">{config.location || ""} </div>
+                <div className="PostLocation">{config.location || ""}</div>
             </div>
             <div className="PostAction">...</div>
         </div>

@@ -16,7 +16,7 @@ export const PostFooter = ({ config }) => {
                             <SendOutlinedIcon />
                         </button>
                     </div>
-                    <div className="likes">{config.likes}  likes</div>
+                    <div className="likes">{config.likes} likes</div>
                 </div>
                 <div className="PostOn">{postedOn}</div>
             </div>
