@@ -7,7 +7,99 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.PostContainer {
+  border: 1px solid #c5afaf;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.PostTitle {
+  color: #343434;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.PostLocation {
+  color: #947b7b;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.PostHeader>div {
+  display: inline-block;
+  width: calc;
+}
+
+.PostAction {
+  padding-top: -20px;
+  witdh: 60px;
+  /* width: calc(100% - 60px); */
+  width: 60px;
+  clor: #343434;
+  color: #343434;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 30px;
+  padding-bottom: 30px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.PostTitleWrapper {
+  width: calc(100% - 80px);
+  padding: 10px;
+}
+
+.PostImage img {
+  max-height: 240px;
+}
+
+.PostImage {
+  text-align: center;
+  /* background: black; */
+}
+
+img {
+  height: 240px;
+  width: 500px;
+}
+
+.PostDetails>div {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(50% - 20px);
+  padding: 10px;
+  color: black;
+}
+
+.PostOn {
+  text-align: right;
+  color: #ffffff;
+}
+
+button.LikeButton {
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* width: 40px; */
+  margin-right: 20px;
+}
+
+button.ShareButton {
+  background: #fff;
+  border: none;
+  outline: none;
+  transform: rotate(315deg) translateY(-2px);
+}
+
+.PostCaption {
+  margin-left: 10px;
+  font-size: 800;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.Postview {
+  margin-left: 495px;
 }
