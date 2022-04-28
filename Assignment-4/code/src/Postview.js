@@ -24,7 +24,7 @@ const Postview = () => {
         <Post key={index} config={post} />
       ))};
 
-    </div>
+    </div >
   );
 }
 

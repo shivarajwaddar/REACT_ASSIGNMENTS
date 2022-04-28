@@ -14,7 +14,7 @@ body {
 }
 
 .PostTitle {
-  color: #343434;
+  color: #513f3f;
   font-weight: 600;
   line-height: 20px;
 }
@@ -32,10 +32,10 @@ body {
 
 .PostAction {
   padding-top: -20px;
-  witdh: 60px;
+  width: 60px;
   /* width: calc(100% - 60px); */
   width: 60px;
-  clor: #343434;
+  color: #343434;
   color: #343434;
   font-weight: 600;
   font-size: 40px;

@@ -3,7 +3,7 @@ export const PostImage = ({ config }) => {
     return (
         <div className="PostImage">
             <img src={relativeImageURL} alt={config.description} />
-        </div>
+        </div >
     );
 };
 

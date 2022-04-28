@@ -8,6 +8,6 @@ const Post = ({ config }) => {
         <PostImage config={config} />
         <PostFooter config={config} />
 
-    </div>
+    </div >
 };
 export default Post;
