@@ -4,7 +4,7 @@ function Postview() {
         <div className="container">
             {/* Start your React code here */}
             <div className="info">
-                <div className="imag">
+                < div className="imag">
                     <img className="image" src="https://www.w3schools.com/howto/img_avatar.png" alt="profile-pic"></img>
                 </div>
                 <div className="data">
