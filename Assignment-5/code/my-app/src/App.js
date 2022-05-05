@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Firstpage />}></Route >
+        < Route path='/' element={<Firstpage />}></Route >
         <Route path='/Postview' element={<Postview />}> </Route>
       </Routes>
 
