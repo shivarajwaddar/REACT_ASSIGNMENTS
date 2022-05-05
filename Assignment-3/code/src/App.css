@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.Header {
+    width: 100%;
+    height: 50px;
+    background: rgb(197, 163, 163);
+}
+
+.Header>div {
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: middle;
+    position: relative;
+}
+
+.Employee {
+    width: 600px;
+}
+
+.HeaderContent {
+    text-align: center;
+    height: 50px;
+    font-size: 14px;
+}
+
+.PrintWrapper {
+    text-align: right;
+}
+
+.HeaderNavigator {
+    font-size: 30px;
+    line-height: 30px;
+    transform: scaleY(1.5);
+    height: 30px;
+    left: 10px;
+}
+
+.BackButton {
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+
+}
+
+.EmployeeName {
+    font-weight: 500;
+}
+
+.EmployeeId {
+    color: rgb(221, 197, 165);
+}
+
+.PrintWrapper button {
+    background: black;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5pxx10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.Content>div {
+    margin: 20px 10px;
+    border: 1px solid #eeee;
+    width: calc(100% - 40px);
+    border-radius: 4px;
+}
+
+.ContactDetailWrapper,
+.StatusDetailWrapper {
+    margin: 5px;
+    font-size: 14px;
+
+}
+
+.ContactDetailName,
+.StatusDetailName {
+    font-weight: 700;
+}
+
+.StatusDetailWrapper {
+    display: inline-block;
+    width: calc(33% - 10px);
+}
+
+.StatusInfo {
+    background: rgb(204, 185, 185);
+}
+
+.statusIcon {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    background: rgb(37, 31, 31);
+    margin-right: 5px;
+}
+
+.RoleInfo {
+    display: inline-block;
+
+}
+
+.RoleInfo>div {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.CheckBox {
+    height: 15px;
+    width: 15px;
+    border: 1px solid rgb(208, 169, 169);
+    margin-left: 25px;
+}
+
+.RoleInfoWrapper {
+    width: 10%;
+    text-align: center;
+
+}
+
+.EmployeeImg {
+    width: calc(100% - 30px);
+}
+
+.RoleDtail {
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+.EmployeeRole {
+    font-weight: 600;
+}

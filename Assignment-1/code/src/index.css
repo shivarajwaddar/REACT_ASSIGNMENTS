@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  height: 100vh;
+  width: calc(100% - 31px);
+  padding: 30px;
+}
+
+.Appcomponentgroup {
+  width: calc(100% - 60px);
+  height: calc(33.33% - 10px);
+  margin-bottom: 15px;
+}
+
+.Yellow {
+  background-color: yellow;
+  height: 100%;
+  display: inline-block;
+  width: calc(50% - 5px);
+  margin-right: 10px;
+
+}
+
+.Appcomponentgroup:last-child {
+  margin-bottom: 0px;
+}
+
+.Yellow:last-child {
+  margin: 0px;
+}
+
+.Red {
+  background-color: red;
+  height: 100%;
+}
+
+.Blue {
+  display: inline-block;
+  width: calc(33% - 7px);
+  background-color: blue;
+  height: 100%;
+  margin-right: 10px;
+
+}
+
+.Blue:last-child {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 320px) {
+  .Yellow {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    height: calc(50% - 5px);
+    margin-bottom: 10px;
+  }
+
+  .Yellow:last-child {
+    margin: 0px;
+  }
+}

@@ -1,0 +1,16 @@
+.info {
+    width: 21%;
+    border: 5px solid pink;
+    margin-left: 37%;
+    padding: 10px;
+    padding-left: 26px;
+}
+
+.container {
+    padding-top: 60px;
+}
+
+img.image {
+    border-radius: 11px;
+    width: calc(100% - 20px);
+}
