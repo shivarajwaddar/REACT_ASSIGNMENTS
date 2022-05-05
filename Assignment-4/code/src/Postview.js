@@ -21,7 +21,7 @@ const Postview = () => {
   return (
     <div className="Postview" >
       {posts.map((post, index) => (
-        <Post key={index} config={post} />
+        < Post key={index} config={post} />
       ))};
 
     </div >

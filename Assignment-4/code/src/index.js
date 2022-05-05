@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode >
     <Postview />
-  </React.StrictMode >,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 

@@ -5,7 +5,7 @@ export const PostFooter = ({ config }) => {
         postedOn = `${postedOnDate.getDate()} ${MonthNames[postedOnDate.getMonth()]} ${postedOnDate.getFullYear()}`;
 
     return (
-        <div className="PostFooter">
+        < div className="PostFooter">
             <div className="PostDetails">
                 <div className="LikeShareWrapper" >
                     <div className="LikrShareContainer">
